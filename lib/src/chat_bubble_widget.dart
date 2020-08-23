@@ -20,6 +20,7 @@ class ChatBubble extends StatelessWidget {
   final Color shadowColor;
   final Alignment alignment;
   final LinearGradient gradient;
+  final EdgeInsetsGeometry padding;
 
   ChatBubble({
     this.clipper,
@@ -30,6 +31,7 @@ class ChatBubble extends StatelessWidget {
     this.shadowColor,
     this.alignment,
     this.gradient,
+    this.padding,
   });
 
   @override
@@ -37,16 +39,16 @@ class ChatBubble extends StatelessWidget {
     return Container(
       alignment: alignment ?? Alignment.topLeft,
       margin: margin ?? EdgeInsets.all(0),
-      decoration: BoxDecoration(
-        gradient: gradient,
-      ),
       child: PhysicalShape(
         clipper: clipper,
         elevation: elevation ?? 2,
         color: gradient == null ? (backGroundColor ?? Colors.blue) : Colors.transparent,
         shadowColor: shadowColor ?? Colors.grey.shade200,
-        child: Padding(
-          padding: setPadding(),
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: gradient,
+          ),
+          padding: padding ?? setPadding(),
           child: child ?? Container(),
         ),
       ),
