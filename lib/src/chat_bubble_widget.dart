@@ -44,12 +44,15 @@ class ChatBubble extends StatelessWidget {
         elevation: elevation ?? 2,
         color: gradient == null ? (backGroundColor ?? Colors.blue) : Colors.transparent,
         shadowColor: shadowColor ?? Colors.grey.shade200,
-        child: Container(
-          decoration: BoxDecoration(
-            gradient: gradient,
+        child: ClipPath(
+          clipper: clipper,
+          child: Container(
+            decoration: BoxDecoration(
+              gradient: gradient,
+            ),
+            padding: padding ?? setPadding(),
+            child: child ?? Container(),
           ),
-          padding: padding ?? setPadding(),
-          child: child ?? Container(),
         ),
       ),
     );
