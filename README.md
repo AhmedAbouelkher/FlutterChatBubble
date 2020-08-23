@@ -17,7 +17,7 @@ To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.y
 | shadowColor | Shadow color of widget |
 | alignment | Align the child within the widget. All possible [options](https://api.flutter.dev/flutter/painting/Alignment-class.html)|
 
-### Example 1
+## Example 1
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%201.png?raw=true" width="500">
 
 ```dart
@@ -61,7 +61,7 @@ To use this plugin, add `flutter_chat_bubble` as a [dependency in your pubspec.y
 | nipWidth | Width of nip. Default value 15 |
 | nipRadius | Radius of nip. Default value 3 |
 
-### Example 2
+## Example 2
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%202.png?raw=true" width="500">
 
 ```dart
@@ -82,7 +82,7 @@ ChatBubble(
 | nipWidth | Width of nip. Default value 15 |
 | nipRadius | Radius of nip. Default value 3 |
 
-### Example 3
+## Example 3
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%203.png?raw=true" width="500">
 
 ```dart
@@ -101,7 +101,7 @@ ChatBubble(
 | radius | Radius of widget. Default value 15 |
 | nipSize | Size of nip. Default value 7 |
 
-### Example 4
+## Example 4
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%204.png?raw=true" width="500">
 
 ```dart
@@ -121,7 +121,7 @@ ChatBubble(
 | nipSize | Size of nip. Default value 10 |
 | offset | Nip distance from bottom. Default value 7 |
 
-### Example 5
+## Example 5
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%205.png?raw=true" width="500">
 
 ```dart
@@ -141,7 +141,7 @@ ChatBubble(
 | secondRadius | Second radius for bottom corner of widget. Default value 2 |
 
 
-### Example 6
+## Example 6
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%206.png?raw=true" width="500">
 
 ```dart
@@ -161,7 +161,7 @@ ChatBubble(
 | nipSize | Size of nip. Default value 8 |
 | sizeRatio | Width ratio of nip. Default value 2 |
 
-### Example 7
+## Example 7
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%207.png?raw=true" width="500">
 
 ```dart
@@ -197,7 +197,7 @@ ChatBubble(
 | type | Values of clipper type  `BubbleType.sendBubble ` and  `BubbleType.receiverBubble` |
 | radius | Radius of widget. Default value 20 |
 
-### Example 9
+## Example 9
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%209.png?raw=true" width="500">
 
 ```dart
@@ -216,7 +216,7 @@ ChatBubble(
 | nipSize | Size of nip. Default value 8 |
 | sizeRatio | Width ratio of nip. Default value 3 |
 
-### Example 10
+## Example 10
 <img src="https://github.com/KinjalDhamat312/FlutterChatBubble/blob/master/screenshots/example%2010.png?raw=true" width="500">
 
 ```dart
